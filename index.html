@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".\style.css">
+    <title>Life-Timer</title>
+</head>
+<body>
+    <!--header-->
+    <header>
+        <nav>
+            <button onclick="reset()" id="resetbutton">Reset</button>
+        </nav>
+    </header>
+    <!--Container-->
+    <div class="container">
+     
+            <h1>Kindly Enter Your Date Of Birth</h1>
+            <!--Date of Birth and calculate section-->
+  <section class="magic">
+    <input type="datetime-local" name="" id="" max="2023-09-01"  >
+    <button onclick="getData()">Show Me The Magic</button>
+  </section>
+<!--Show Data Section-->
+<div class="showdatacontainer">
+   <div class="datacontainer">
+    <section class="numbers">00</section>
+    <section class="texts">Years</section>
+   </div>
+   <div class="datacontainer">
+    <section class="numbers">00</section>
+    <section class="texts">Months</section>
+   </div>
+   <div class="datacontainer">
+    <section class="numbers">00</section>
+    <section class="texts">Days</section>
+   </div>
+   <div class="datacontainer">
+    <section class="numbers">00</section>
+    <section class="texts">Hours</section>
+   </div>
+   <div class="datacontainer">
+    <section class="numbers">00</section>
+    <section class="texts">Minutes</section>
+   </div>
+   <div class="datacontainer">
+    <section class="numbers">00</section>
+    <section class="texts">Seconds</section>
+   </div>
+</div>
+    </div>
+    <script src=".\script.js"></script>
+</body>
+</html>
